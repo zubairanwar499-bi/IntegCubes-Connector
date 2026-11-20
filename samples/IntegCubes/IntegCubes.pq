@@ -432,8 +432,16 @@ IntegCubes.Publish = [
 ];
 
 IntegCubes.Icons = [
-    Icon16 = { Extension.Contents("IntegCubes16.png"), "image/png" },
-    Icon20 = { Extension.Contents("IntegCubes20.png"), "image/png" },
-    Icon24 = { Extension.Contents("IntegCubes24.png"), "image/png" },
-    Icon32 = { Extension.Contents("IntegCubes32.png"), "image/png" }
+    Icon16 = {
+        Extension.Contents("IntegCubes16.png"),
+        Extension.Contents("IntegCubes20.png"),
+        Extension.Contents("IntegCubes24.png"),
+        Extension.Contents("IntegCubes32.png")
+    },
+    Icon32 = {
+        Extension.Contents("IntegCubes32.png"),
+        Extension.Contents("IntegCubes40.png"),
+        Extension.Contents("IntegCubes48.png"),
+        Extension.Contents("IntegCubes64.png")
+    }
 ];
